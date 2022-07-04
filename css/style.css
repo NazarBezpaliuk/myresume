@@ -1,0 +1,239 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background: rgb(20, 19, 19);
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  justify-content: flex-end;
+  border-radius: 20px;
+}
+/* main content section */
+.main-content-section {
+  padding: 100px 90px;
+}
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+/* about me section */
+.about-me-section {
+  margin: 0 0 40px 0;
+}
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #fff;
+  margin: 0 0 25px 0;
+}
+.about-me-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8d8989;
+  width: 400px;
+}
+/* project section */
+.projects-section-list {
+  padding: 0 0 0 17px;
+}
+.project-item {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+.project-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8d8989;
+  margin-left: 5px;
+}
+.project-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8d8989;
+  transition: color 200ms linear;
+  text-decoration: none;
+}
+.project-link:hover,
+.project-link:focus {
+  color: #3afb50;
+}
+.project-brecket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+/* my work */
+.work-orange {
+  color: #3afb50;
+}
+.my-work-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+.data-work {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.work-divider {
+  color: #fff;
+}
+.my-work-list {
+  padding: 0 0 0 18px;
+}
+.work-duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8d8989;
+}
+.work-company {
+  margin: 0 0 15px 0;
+}
+
+/* educatiion */
+.education-university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3afb50;
+  margin: 0 0 10px 0;
+}
+.education-speciality {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+.education-data {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.educatioin-divider {
+  color: #fff;
+}
+/* sidebar section */
+.img-my-photo {
+  width: 370px;
+}
+.sidebar-section {
+  background-color: #000000;
+  width: 370px;
+  padding: 40px 0 0 0;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.contact-section,
+.tech-skill-section {
+  margin: 50px 0 0 40px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+/* contacts section */
+.contacts-section-link {
+  color: #8d8989;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+.contacts-section-link:hover,
+.contacts-section-link:focus {
+  color: #3afb50;
+}
+.contacts-section-type {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 5px;
+}
+/* tech skills section */
+.tech-skill-list {
+  padding: 0 0 0 18px;
+}
+.tech-skill-item {
+  color: #3afb50;
+}
+.tech-skill-item-text {
+  color: #fff;
+}
+/* soft skills section */
+.soft-skill-section {
+  margin: 45px 0 0 40px;
+}
+.soft-skill-list {
+  padding: 0 0 0 18px;
+}
+.soft-skill-item {
+  color: #3afb50;
+}
+.soft-skill-item-text {
+  color: #fff;
+}
+.myphoto {
+  position: relative;
+  overflow: hidden;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.img-my-photo {
+  position: absolute;
+  top: 0;
+}
